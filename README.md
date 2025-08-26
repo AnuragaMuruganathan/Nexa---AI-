@@ -85,14 +85,13 @@ A powerful generative AI application built with Mistral model through Ollama, La
 
 ## Model Settings
 
-**Adjust temperature and other parameters in app.py**:
-
-python
-llm = Ollama(
+2. **Adjust temperature and other parameters in app.py**:
+   ```bash
+   llm = Ollama(
     model="mistral",
     temperature=0.7,  # Creativity level (0.0-1.0)
     top_p=0.9         # Diversity control
-)
+   )
 
 ## 🛠️ Customization
 
