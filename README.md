@@ -76,10 +76,12 @@ A powerful generative AI application built with Mistral model through Ollama, La
 
 ### Environment Variables (Optional)
 
-**Create a .env file for custom settings**:
-env
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=mistral
+
+1. **Create a .env file for custom settings**:
+   ```bash
+   OLLAMA_BASE_URL=http://localhost:11434
+   OLLAMA_MODEL=mistral
+
 
 ## Model Settings
 
